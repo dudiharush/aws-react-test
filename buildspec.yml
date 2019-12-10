@@ -17,6 +17,7 @@ phases:
       #install deps
       - echo installing deps...
       - yarn
+      - yarn install-react-scripts
   build:
     commands:
       #test

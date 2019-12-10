@@ -20,6 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "citest":"CI=true react-scripts test",
+    "install-react-scripts": "yarn global react-scripts",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
