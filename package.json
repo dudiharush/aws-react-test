@@ -21,6 +21,7 @@
     "test": "react-scripts test",
     "citest":"CI=true react-scripts test",
     "install-react-scripts": "yarn global react-scripts",
+    "cibuild": "PATH=$PATH:./node_modules/.bin npm start",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
