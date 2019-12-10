@@ -13,7 +13,7 @@ phases:
     commmands:
       #install deps
       - echo installing deps...
-      npm i
+      - npm i
   build:
     commands:
       #test
