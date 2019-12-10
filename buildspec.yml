@@ -16,17 +16,16 @@ phases:
     commmands:
       #install deps
       - echo installing deps...
-      - yarn
-      - yarn install-react-scripts
+      - npm i
   build:
     commands:
       #test
       - echo testing...
       #build
       - echo building...
-      - yarn cibuild
+      - npm run build
 artifacts:
   files:
     - "**/*"
   discard-path: no
-  base-directory: build
+  base-directory: dist
